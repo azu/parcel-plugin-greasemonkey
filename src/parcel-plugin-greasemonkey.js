@@ -8,7 +8,7 @@ const updateInsertHeader = (filePath, header) => {
         return;
     }
     const content = fs.readFileSync(filePath, "utf-8");
-    if (content.startsWith(content)) {
+    if (content.startsWith(header)) {
         return;
     }
     const updatedContent = `${header}${content}`;
