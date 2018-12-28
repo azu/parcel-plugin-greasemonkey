@@ -59,6 +59,12 @@ Finally, Generate Greasemonkey script to `./dist/yourscript.user.js`!
 // your script
 ```
 
+## FAQ
+
+Q. Does not insert header.
+A. Please check your script file name is ended with `.user.js`.
+This plugin only check `.user.js` file.
+
 ## Changelog
 
 See [Releases page](https://github.com/azu/parcel-plugin-greasemonkey/releases).
