@@ -1,0 +1,35 @@
+{
+  "name": "parcel-plugin-greasemonkey",
+  "version": "1.0.0",
+  "description": "parcel-plugin for Greasemonkey.",
+  "keywords": [
+    "greasemonkey",
+    "parcel",
+    "plugin"
+  ],
+  "homepage": "https://github.com/azu/parcel-plugin-greasemonkey",
+  "bugs": {
+    "url": "https://github.com/azu/parcel-plugin-greasemonkey/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/parcel-plugin-greasemonkey.git"
+  },
+  "license": "MIT",
+  "author": "azu",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "main": "src/parcel-plugin-greasemonkey.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0"
+  }
+}

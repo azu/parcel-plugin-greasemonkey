@@ -1,0 +1,1 @@
+{"id":"target.user.js","dependencies":[{"name":"/Users/azu/.ghq/github.com/azu/parcel-plugin-greasemonkey/package.json","includedInParent":true,"mtime":1545986041510}],"generated":{"js":"// MIT © 2018 azu\n\"use strict\";\n\nvar aAAAAAA = 1 + 2;\nvar bBB = 2;","map":null},"hash":"29c8e9b5ca0c2cc4e9140dcc191e44d4","cacheData":{"env":{}}}

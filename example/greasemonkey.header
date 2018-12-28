@@ -1,0 +1,7 @@
+// ==UserScript==
+// @name coursera:side-by-side-transcript
+// @namespace info.efcl
+// @match https://www.coursera.org/learn/*
+// @grant none
+// ==/UserScript==
+
