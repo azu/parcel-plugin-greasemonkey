@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-greasemonkey",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "parcel-plugin for Greasemonkey.",
   "keywords": [
     "greasemonkey",
@@ -27,8 +27,7 @@
     "lib": "lib",
     "test": "test"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "devDependencies": {
     "parcel-bundler": "^1.11.0"
   }
