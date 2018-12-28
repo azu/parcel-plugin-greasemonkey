@@ -14,6 +14,13 @@ Install with [npm](https://www.npmjs.com/):
 
 ## Usage
 
+```
+├── greasemonkey.header
+├── yourscript.user.js
+└── package.json
+```
+
+
 1. Create `greasemonkey.header` in project root directory
 
 ```
@@ -36,7 +43,7 @@ yarn install parcel-plugin-greasemonkey -D
 3. Build `.user.js` as entry file
 
 ```
-parcel build --no-content-hash ./yourscript.user.js --out-dir ./dist
+parcel build ---no-source-maps --no-content-hash ./yourscript.user.js --out-dir ./dist
 ```
 
 Finally, Generate Greasemonkey script to `./dist/yourscript.user.js`!
