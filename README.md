@@ -43,7 +43,7 @@ yarn install parcel-plugin-greasemonkey -D
 3. Build `.user.js` as entry file
 
 ```
-parcel build ---no-source-maps --no-content-hash ./yourscript.user.js --out-dir ./dist
+parcel build --no-source-maps --no-content-hash ./yourscript.user.js --out-dir ./dist
 ```
 
 Finally, Generate Greasemonkey script to `./dist/yourscript.user.js`!
